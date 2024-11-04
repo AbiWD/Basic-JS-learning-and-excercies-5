@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       var input = prompt("Enter a word you want:");
+var vowels = ["a","e","i","o","u"];
+
+function countVowels (str){
+let count = 0;
+   for (const char of str) {
+        if (char === "a"||
+            char === "e"||
+            char === "i"||
+            char === "o"||
+            char === "u"){
+            count ++
+        }
+    }  
+   return(count);
+}
+console.log(countVowels(input)); 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
